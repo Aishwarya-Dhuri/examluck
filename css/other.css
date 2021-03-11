@@ -1,0 +1,2291 @@
+/*  ORGANIZATION NEW CSS*/
+.organization_name
+{
+  margin-left: 0!important;
+      margin-top: 5px;
+}
+.u_name
+{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.li-right-margin
+{
+  margin-right: 10px!important;
+}
+.courses-less-min-height
+{
+    color: #000000;
+    letter-spacing: 0.8px;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    min-height: 135px;
+}
+.organizations-details-ul
+{
+  list-style-type: none!important;
+}
+/*Organization new ends  */
+.organization-outer{
+      padding-bottom: 4%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      border-radius: 6px;
+      border: 1px solid #cecece;
+      background: white;
+    width:100%;
+    float: left;
+}
+.organization-outer:hover{
+  box-shadow: 0px 4px 5px 0px rgba(47, 47, 47, 0.31);
+    border: 1px solid #f4b640;
+}
+.organization-inner{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: linear-gradient(#545353, #101010);
+    border-top-left-radius: 6px;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 6px;
+}
+.organization-outer ul{
+  list-style-type: none;
+  margin-right: 0px;
+padding-left: 0px;
+width: 100%;
+display: table;
+float: left;
+}
+.popularimgfiled {
+    width: 70px;
+    float: left;
+}
+.popularimgfiled img {
+    width: 100%;
+}
+.organization-outer ul li{
+  width: 100%;
+  float: left;
+      border-bottom: 1px solid #dad3d3;
+      display: table;
+}
+.organization-outer ul li:last-child{
+border-bottom: none;
+}
+.organization-outer ul li a{
+  line-height: 38px;
+  color: #333;
+  font-weight: 400;
+  font-size: 13px;
+  height: 70px;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: normal;
+}
+.forum-uni{
+  width: calc(100% - 80px);
+float: right;
+}
+.organization-outer ul li a:hover{
+    text-decoration: none;
+    color:#ff9854;
+}
+.organization-span img{
+      /* width: 18%; */
+      display: inline-block;
+      margin-right: 2%;
+      margin-bottom: 10px;
+}
+.org-viewmorebtn{
+    background: transparent;
+    border: 1px solid #333;
+    color: #333;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-left: 38%;
+    text-transform: uppercase;
+    padding: 7px 7px;
+    margin-top: 5%;
+    font-size: 12px;
+}
+.org-viewmorebtn:hover{
+    background: #fc9243;
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 7px 7px;
+    margin-top: 5%;
+    font-size: 12px;
+}
+.university-separator{
+    /* border-bottom: 1px solid #c1c1c1; */
+    width:100%;
+}
+.forum-banner {
+    background: url(../images/forum/forum-banner1.jpg) no-repeat  fixed;
+    background-size: cover;
+    min-height: 285px;
+        /* padding-bottom: 2%; */
+}
+.forum-banner h5{
+    color: white;
+    font-size: 18px;
+    text-align:center;
+}
+.forum-banner h4{
+    color: white;
+    text-align:center;
+    margin-top: 10%;
+    font-size: 30px;
+    //margin-bottom: 3%;
+}
+.forum-search-header input {
+    background: #fff url(../images/search-home-courses.png) no-repeat left;
+    background-size: 20px 20px;
+    background-position: 15px;
+    font-size: 15px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    max-width: 650px;
+    border-radius: 5px 0 0 5px;
+    position: relative;
+    border: 0;
+    padding: 16px 15px 13px 55px;
+    height: 50px;
+    font-weight: 700;
+    margin-bottom: 3%;
+    outline: none;
+    color: black;
+    margin-right: -4px;
+}
+.forum-search_cr_btn , .forum-search_cr_btn:focus{
+  background: #1f7aa1;
+    font-size: 15px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    max-width: 170px;
+    border-radius: 0 4px 4px 0;
+    border: 0;
+    padding: 17px 15px;
+    height: 51px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+        margin-left: -4px;
+}
+.forum-search-header {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.orgimg{
+  width: 100%;
+}
+.org-row-inner{
+    width: 95%;
+    border-bottom: 1px solid #d6d6d6;
+    margin: 0 auto;
+}
+.heading-span img{
+  width: 10%;
+  display: inline-block;
+  margin-top: 10px;
+}
+.org-para{
+    margin-top: 17%;
+    font-weight: 500;
+    color: #000;
+}
+.forum-org-exams{
+    margin-bottom: 36px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+     background: #1d7a9e;
+}
+.forum-heading{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: .6px;
+  color: #11171f;
+  margin: 24px 0;
+}
+.forum-upsc-black{
+  // border:1px solid #96999e;
+    border-radius:10px;
+    padding: 8px 16px 20px 20px;
+    margin-bottom: 25px;
+    background: url(../images/forum/tiltedbannerblack.jpg) no-repeat 100%;
+    background-size: cover;
+    margin-top: 10px;
+}
+.forum-upsc-black:hover{
+    cursor: pointer;
+    background: url(../images/forum/tiltedbannerblackhover.jpg) no-repeat 100%;
+    background-size: cover;
+}
+.forum-upsc-black h5{
+    font-size: 1.15em;
+    font-weight: 700;
+    color: #fff;
+}
+.more-arrow{
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    float: right;
+    font-size: 24px;
+    margin-top: -20px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    cursor: pointer;
+    color: #fff;
+}
+.desc {
+    font-size: 11px;
+    color: white;
+    margin-top: 4px;
+}
+.forum-upsc-orange{
+    //border:1px solid #96999e;
+    border-radius:10px;
+    padding: 8px 16px 20px 20px;
+    margin-bottom: 25px;
+    background: url(../images/forum/tiltedbannerorange.jpg) no-repeat 100%;
+    background-size: cover;
+    margin-top: 10px;
+}
+.forum-upsc-orange:hover{
+  cursor: pointer;
+    background: url(../images/forum/tiltedbannerorangehover.jpg) no-repeat 100%;
+    background-size: cover;
+    margin-top: 10px;
+}
+.forum-upsc-orange h5{
+    font-size: 1.15em;
+    font-weight: 700;
+    color: #fff;
+}
+.forum-pgsep{
+  width: 85%;
+  margin: 0 auto;
+  background: black;
+  color: black;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 20px;
+}
+/*UNIVERSITY PAGE */
+.university-banner{
+  background: url(../images/university/5.jpg) no-repeat 100% fixed;
+  background-size: cover;
+  min-height: 285px;
+max-height: 285px;
+}
+.university-banner h5 {
+  color: white;
+    text-align: center;
+    margin-top: 11%;
+    font-size: 28px;
+    margin-bottom: 2%;
+}
+.university-search-header {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.university-search-header input {
+  background: #fff url(../images/search-home-courses.png) no-repeat left;
+      background-size: 20px 20px;
+      background-position: 15px;
+      font-size: 15px;
+      box-sizing: border-box;
+      display: inline-block;
+      width: 100%;
+      max-width: 615px;
+      border-radius: 5px 0 0 5px;
+      position: relative;
+      border: 0;
+      padding: 16px 15px 13px 55px;
+      height: 50px;
+      font-weight: 500;
+      color: black;
+}
+.university-box{
+    //margin-bottom: 2%;
+    margin-top: 1%;
+    width: 66%;
+    margin-left: 4%;
+    float: left;
+}
+
+.university-box h3{
+      //font-family: ss1,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 26.7px;
+      letter-spacing: 1px;
+      color: #ff7900;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-left: 25%;
+}
+.university1 h4{
+    font-size: 15px;
+      white-space: normal;
+      font-weight: 600;
+      font-size: 15px;
+      color: #696767;
+      margin-bottom: 10px;
+}
+.university1{
+  border:1px solid #ccc;
+  padding: 1%;
+  margin-bottom: 3%;
+  background: white;
+}
+.university1:hover{
+  background: #f5f5f5;
+  box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+}
+.university1 p{
+  color: #3c3b3b;
+  font-size: 12px;
+  margin-left: 4%;
+  letter-spacing: 0.5px;
+  padding-top: 6px;
+  border-top: 1px solid #c5c4c4;
+  font-weight: 400;
+}
+.university1 h5{
+    text-align: left;
+    margin-left: -38px;
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 0;
+    //line-height: 4px;
+    letter-spacing: 0.8px;
+}
+.university1 button {
+  margin-top: 6%;
+  background: #ff9a4a;
+  color: white;
+  background-color: #ff9c3c;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  font-weight: 400;
+  width: 50%;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  float: right;
+  margin-right: 22%;
+}
+.star-rating {
+    display: inline-block;
+  margin-left:  30%;
+    height: 29px;
+        margin-top: 10%;
+}
+.links1{
+  margin-left: 21px !important;
+margin-top: 0 !important;
+color: #fd7901 !important;
+font-weight: bold;
+    font-size: 11px;
+letter-spacing: 0.8px;
+}
+.links1 i{
+  margin-right: 7px;
+}
+.star-rating span{
+  margin-left: 0 !important;
+
+}
+.star-rating .checked {
+    color: orange;
+}
+.university1 span{
+      display: inline-block;
+      margin-left: -36px;
+      font-size: 11px;
+      margin-top: 12px;
+      color: grey;
+}
+.uniraj-logo{
+    width: 70%;
+    border: 1px solid #c5c4c4;
+    border-radius: 2px;
+    padding: 3px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.location-icon {
+    margin-right: 6px;
+    color: #9e9e9e;
+}
+.pagination {
+    /* display: inline-block;
+    margin-top: 2%;
+    margin-left: 32%; */
+}
+.pagination a {
+  color: #909090;
+    float: left;
+    padding: 8px 16px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: #ff9a4a;
+    color: white;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+.sidebox{
+  text-align: center;
+  /* //  background: #ececec; */
+    width: 24%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 3px;
+  /* //height: 685px; */
+    color: #545353;
+    float: left;
+    margin-top: 1%;
+    padding-top: 1%;
+    /* //border: 1px solid #d6d6d6; */
+}
+.searchbox{
+        border: 1px solid #d6d6d6;
+        padding-top: 2%;
+        border-top: 5px solid #fd9c3c;
+        padding-bottom: 5%;
+        margin-bottom: 8%;
+        background: white;
+}
+.s1{
+margin-top: 15%;
+
+}
+.states-box{
+      width: 80%;
+      height: 200px;
+      overflow: auto;
+      margin-left: 10%;
+      margin-top: 6%;
+}
+.states-box::-webkit-scrollbar {
+    width: 5px;
+    height: 15px;
+    background-color:#cccccc;
+}
+.states-box::-webkit-scrollbar-thumb {
+    width: 8px;
+    background:#ff9a4a;
+}
+.top-universitiesbox{
+border: 1px solid #d6d6d6;
+    padding-top: 2%;
+    border-top: 5px solid #fd9c3c;
+    padding-bottom: 5%;
+    background: white;
+        margin-bottom: 8%;
+  }
+.top-universitiesbox ul{
+      text-align: left;
+      list-style-type: none;
+      font-size: 13px;
+      line-height: 20px;
+}
+.top-universitiesbox ul li{
+      border-bottom: 1px solid #eae7e7;
+      /* margin-top: 8px; */
+      margin-bottom: 5px;
+      padding-bottom: 20px;
+      margin-left: -18px;
+      margin-right: 20px;
+      //padding-top: 16px;
+}
+.sidebar-uni-img{
+    width: 10%;
+    float: left;
+    margin-right: 2px;
+}
+.sidebar-uni-img1{
+    width: 15%;
+    float: left;
+    //margin-right: 2px;
+    margin-left: -8px;
+}
+/*Custom Checkbox*/
+.checkboxlabel{
+    position: relative;
+    cursor: pointer;
+    color: #313131;
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: 500;
+        float: left;
+        width: 100%;
+        text-align: left;
+    padding: 2%;
+}
+
+input[type="checkbox"], input[type="radio"]{
+	position: absolute;
+	right: 9000px;
+}
+
+/*Check box*/
+input[type="checkbox"] + .label-text:before{
+	content: "\f096";
+	font-family: "FontAwesome";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing:antialiased;
+	width: 1em;
+	display: inline-block;
+	margin-right: 5px;
+  font-size: 15px;
+}
+
+input[type="checkbox"]:checked + .label-text:before{
+	content: "\f14a";
+  color: #fd9c3c;
+      animation: effect 250ms ease-in;
+      //font-size: 17px;
+}
+
+input[type="checkbox"]:disabled + .label-text{
+	color: #aaa;
+}
+
+input[type="checkbox"]:disabled + .label-text:before{
+	content: "\f0c8";
+	color: #ccc;
+}
+/* Custom Checkbox Ends*/
+.view-topbtn{
+      margin-top: 15%;
+      background: #ff9a4a;
+      color: white;
+      background-color: #ff9c3c;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      font-weight: 400;
+      width: 40%;
+      font-size: 12px;
+      cursor: pointer;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+      float: right;
+      margin-right: 29%;
+}
+.top-universitiesbox ul li a{
+      color: #080808;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.8px;
+}
+.advertisements{
+      border: 1px solid #d6d6d6;
+      padding-top: 2%;
+      margin-top: 7%;
+      background: white;
+      border-top: 5px solid #fd9c3c;
+      padding-bottom: 96%;
+          margin-bottom: 10%;
+}
+.sidebox h4{
+      color: #333;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 1px;
+}
+.top-universitiesbox ul li a:hover{
+      color: #ff7900;
+      text-decoration: none;
+      font-size: 12px;
+      letter-spacing: 0.8px;
+}
+.search-university , .search-university.active , .search-university:hover{
+      width: 88%;
+      height: 40px;
+      border-radius: 20px;
+      border: 1px solid #bfbdbd;
+      background: #fff url(../images/search-home-courses.png) no-repeat right;
+      /* padding-right: 39%; */
+      background-size: 15px 15px;
+      padding-left: 10px;
+      outline: none;
+      background-position: 238px;
+}
+/*Uniraj University*/
+.university1-banner{
+  /* //  background: url(../images/university/university-sample-banner.jpg) no-repeat 100% fixed; */
+  /* //  background-size: cover; */
+  min-height: 100px;
+    width: 100%;
+    position: relative;
+  /* //max-height: 100px; */
+  }
+  .university1-banner img{
+    min-height: 300px;
+  width: 100%;
+  max-height: 263px;
+
+  }
+  .university1-bannerbox{
+/* margin-top: 12%; */
+    color: white;
+    position: absolute;
+    top: 50%;
+  }
+  .university1-bannerbox a{
+    text-decoration: none;
+  }
+  .university_name{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: -39%;
+}
+  .university-logo{
+    width: 20%;
+    float: left;
+
+  }
+  .university_loc{
+    margin-right: 6px;
+    color: white;
+    font-weight: 900;
+    margin-left: -39%;
+    margin-top: 15px;
+  }
+  .university_no{
+    margin-right: 6px;
+    color: white;
+    margin-left: 6px;
+    font-weight: 900;
+  }
+  .university-logo img{
+    width: 100%;
+    float: left;
+    display: inline-block;
+}
+.university1-banner{
+  font-size: 13px;
+    color: white;
+    float: left;
+
+}
+.university-detailbox {
+      margin-top: 2%;
+      width: 70%;
+      float: left;
+      margin-left: 2%;
+}
+.detailpg-sidebox{
+  text-align: center;
+    background: #ececec;
+    width: 18%;
+    margin-left: 1%;
+    border-radius: 3px;
+    height: 580px;
+    color: #545353;
+    float: left;
+    margin-top: 2%;
+    padding-top: 1%;
+    border: 1px solid #d6d6d6;
+}
+/*Tabs Styling*/
+.university-detailbox .nav-tabs {
+  background: #eaeaead4;
+   margin-top: 0;
+   margin-left: 0;
+   margin-right: 0;
+  }
+  .university-detailbox .nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+    margin-right: 24px;
+  }
+  .university-detailbox  .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+     border-width: 0;
+   }
+  .university-detailbox  .nav-tabs > li > a {
+    border: none; color: #737373;
+    font-size: 12px;
+}
+.university-detailbox    .nav-tabs > li.active > a, .nav-tabs > li > a:hover {
+      color: #333 !important;
+      background: transparent;
+      font-size: 12px;
+      /* //font-weight: bold; */
+}
+
+  .university-detailbox    .nav-tabs > li > a::after {
+      content: "";
+      background: #fe9a4a;
+      height: 2px;
+      position: absolute;
+      width: 100%;
+      left: 0px; bottom: -1px;
+      transition: all 250ms ease 0s;
+      transform: scale(0);
+      }
+  .university-detailbox  .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after {
+    transform: scale(1);
+  }
+.university-detailbox .tab-nav > li > a::after {
+   background: #21527d none repeat scroll 0% 0%;
+   color: #fff;
+  }
+.university-detailbox .tab-pane {
+    padding: 15px 0;
+ }
+.university-detailbox .tab-content{
+    padding:20px;
+    float: left;
+    width: 100%;
+}
+.university-detailbox .card {
+    background: #FFF none repeat scroll 0% 0%;
+    /* //box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); */
+     margin-bottom: 30px;
+     width: 100%;
+     float: left;
+  }
+.inner-link{
+     font-size: 13.5px;
+     color: #131212;
+     text-decoration: none;
+     display: inline-block;
+     margin-bottom: 5px;
+     cursor: pointer;
+     font-weight: 400;
+     border-bottom: 1px solid #eee;
+     padding-bottom: 5px;
+  }
+  .inner-link::before {
+    color: #fd9c3c;
+    content: "\f101";
+    display: inline-block;
+    font-family: fontawesome;
+    font-size: 15px;
+    left: 0;
+    margin-left: 5px;
+    margin-right: 8px;
+    float: left;
+}
+    .inner-link:hover {
+        color:#ff865c;
+    }
+  .about-link{
+    font-size: 12.5px;
+    color: #131212;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-weight: 400;
+     padding-bottom: 5px;
+  }
+  .about-more-link{
+    background: transparent;
+    border: 1px solid #848383;
+    color: #333;
+    border-radius: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+  .about-more-link:hover{
+    background: #ff9a4a;
+    color: white;
+
+  }
+  .publish-date{
+    font-size: 11px;
+    color: grey;
+    margin-left: 2%;
+    display: inline-block;
+  }
+  .tab-content a:hover{
+    color: #e86e0c;
+  }
+  .results-filter{
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #ff9a4a;
+    background: #fff url(../images/search-home-courses.png) no-repeat right;
+    margin-bottom: 3%;
+    background-size: 15px 15px;
+    padding-left: 40px;
+    outline: none;
+    background-position: 14px 13px;
+  }
+.results-filter:hover, .results-filter:focus{
+box-shadow: 0px 4px 5px 0px rgba(150, 150, 150, 0.31);
+}
+/*Tabs Styling Ends*/
+/*Forum Page*/
+.forum-left{
+      margin-top: 0.4%;
+      width: 66%;
+      margin-left: 4%;
+      float: left;
+      margin-bottom: 2%;
+}
+.forum-right{
+  width: 24%;
+      margin-left: 2%;
+      margin-right: 2%;
+      border-radius: 3px;
+      color: #545353;
+      float: left;
+      margin-top: 1%;
+      padding-top: 1%;
+
+}
+/*  Sidebar tab starts*/
+.sidebar-tabs .nav-tabs { border-bottom: 2px solid #DDD;
+  margin-top: 0;
+    margin: 0;
+        margin-top: 5%;
+    margin-left: 6%;
+}
+  .sidebar-tabs  .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+.sidebar-tabs    .nav-tabs > li > a { border: none; color: #666; }
+.sidebar-tabs        .nav-tabs > li.active > a, .nav-tabs > li > a:hover {
+  border: none;
+      color: #fcfdff !important;
+      background: #fd9c3c;
+      border-radius: 5px
+}
+  .sidebar-tabs      .nav-tabs > li > a::after { content: ""; background: none; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+.sidebar-tabs    .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+.sidebar-tabs .tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
+.sidebar-tabs .tab-pane { padding: 15px 0; }
+.sidebar-tabs .tab-content{
+  /* padding:20px */
+  padding-top: 0%;
+}
+.sidebar-tab-img{
+  width: 22%;
+float: left;
+margin-right: 5px;
+margin-top: 3%;
+}
+#pplr-groups ul{
+    list-style-type: none;
+    margin: 0;
+padding: 0;
+width: 85%;
+
+    margin-top: 3%;
+}
+#pplr-groups .join-link{
+  margin-left: 0 !important;
+}
+#pplr-groups ul li{
+  margin-bottom: 0%;
+float: left;
+    border-bottom: 1px solid #d6d6d6;
+  width: 100%;
+}
+#pplr-groups{
+  padding: 0;
+}
+#pplr-news ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 100%;
+margin-top: 3%;
+    margin-left: 3%;
+}
+.view-all-sidebar-grp-btn{
+  background-color: #fd9c3c;
+    color: white;
+    font-size: 13px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #fd9c3c;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-transform: uppercase;
+    padding: 6px 25px;
+    text-decoration: none;
+    font-weight: 600;
+    outline: none;
+    margin-left: 25%;
+        margin-top: 5%;
+    transition: .3s all ease;
+}
+.join-link{
+  width: 20%;
+    float: left;
+    margin-bottom: 3%;
+    border: 1px solid orange;
+    padding: 1%;
+    border-radius: 4px;
+    text-align: center;
+    color: #ff9a4a;
+    margin-left: 25%;
+    font-size: 12px;
+    /* margin-top: 2%; */
+    font-weight: 700;
+}
+#pplr-news ul li{
+  margin-bottom: 0%;
+float: left;
+    border-bottom: 1px solid #d6d6d6;
+  width: 100%;
+}
+#pplr-news{
+  padding: 0;
+}
+.sidebar-tabs .card {
+  background: none;
+   box-shadow:none;
+       border: none;
+   margin-bottom: 30px; }
+
+.pplr-grps-link{
+  margin-top: 4%;
+      display: inline-block;
+      width: 100%;
+
+}
+.pplr-groups-list{
+
+    margin: 0 auto !important;
+}
+
+.pplr-news-link{
+  margin-top: 4%;
+      display: inline-block;
+      width: 75%;
+
+}
+.pplr-grp-div{
+  font-size: 12px;
+}
+.sidebar-category-span{
+  display: inline-block;
+    background: #aab2c2;
+    color: #fff !important;
+    margin: 0 4px 0 0;
+    font-size: 12px;
+    border-radius: 30px;
+    max-width: 100%;
+    padding: 3px 8px;
+    line-height: 1;
+    /* margin-top: -5px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#pplr-groups-icons{
+
+}
+/*  Sidebar tab ends*/
+/*Forum tab */
+  .forum-tabs {
+        width:100%;
+    }
+.forum-tabs .nav-tabs { border-bottom: 2px solid #DDD; }
+.forum-tabs    .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { border-width: 0; }
+.forum-tabs    .nav-tabs > li > a { border: none; color: #666; }
+.forum-tabs        .nav-tabs > li.active > a, .nav-tabs > li > a:hover { border: none; color: #333 !important; background: transparent; }
+  .forum-tabs      .nav-tabs > li > a::after { content: ""; background: #fe9a4a; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+.forum-tabs    .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+.forum-tabs .tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
+.forum-tabs .tab-pane { padding: 15px 0; }
+.forum-tabs .tab-content{padding:20px}
+.forum-tabs .tab-content a{
+  text-decoration: none;
+}
+.forum-tabs .card {background: #FFF none repeat scroll 0% 0%;
+    border: 1px solid #cecece;
+  margin-bottom: 30px;
+    border-radius: 10px; }
+
+/* Forum tab ends*/
+.overview-hr{
+
+      border-bottom: 0.2px solid #dcdbdb;
+      margin-top: 0;
+}
+.overview-heading{
+  font-size: 20px;
+  letter-spacing: .7px;
+  color: #ff7900;
+}
+.overview-para{
+    color: #000000;
+    letter-spacing: 0.8px;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.courses{
+    color: #000000;
+    letter-spacing: 0.8px;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    min-height: 245px;
+}
+.sidebar-hr {
+border-top: 1px solid #d8dada;
+}
+
+.results-listing {
+    background: #FFF none repeat scroll 0% 0%;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding:20px;
+    margin-bottom: 6%;
+}
+.results-listing ul{
+  list-style-type: none;
+  margin-left: 0;
+  width: 100%;
+      padding-left: 0;
+}
+.results-listing ul li{
+margin-bottom: 2%;
+  margin-left: 0;
+}
+.detail-viewall {
+    background-color: #ff9c3c;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    width: 74px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+/*video Gallery*/
+/*  uniraj videos css*/
+.video-inner{
+margin-bottom: 15%;
+background-color: transparent;
+}
+
+.video-inner-caption{
+  border-left: 2px solid #fd9c3c;
+    padding-right: 10px;
+    /* margin-right: 10px; */
+    padding-left: 10px;
+    height: 50px;
+}
+.video-inner-caption p{
+  font-size: 11px;
+  color: #461e1e;
+  float: left;
+  margin-right: 5px;
+
+}
+.video-inner-caption i{
+  font-size: 1em !important;
+  margin-right: 5px;
+      color: #1d7a9e;
+}
+.video-inner iframe{
+  width: 100%;
+}
+.video-desc{
+  font-size: 13px;
+}
+
+/*  State Results Page*/
+.state-result-banner{
+  min-height: 100px;
+      width: 100%;
+      position: relative;
+}
+.state-result-banner img {
+    min-height: 285px;
+    width: 100%;
+    max-height: 285px;
+}
+.state-result-banner-box{
+  position: absolute;
+    top: 0%;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.state-results-box{
+  margin-top: 1%;
+  width: 66%;
+  margin-left: 4%;
+  float: left;
+  margin-bottom: 3%;
+}
+.states-result-sidebar{
+  text-align: center;
+width: 24%;
+margin-left: 2%;
+margin-right: 2%;
+border-radius: 3px;
+color: #545353;
+float: left;
+margin-top: -2%;
+padding-top: 1%;
+}
+.state-results-box h4{
+  color: #fb871d;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.state-result-hr{
+  margin-top: 0px;
+margin-bottom: 10px;
+border: 0;
+    border-top: 1px solid #bdb9b9;
+}
+.state-icon{
+    color: #fd7901;
+    margin-right: 4px;
+}
+.state-name{
+  color: #333;
+  font-size: 14px;
+  line-height: 45px;
+ text-decoration: none;
+}
+.state-result-name-box{
+  background: white;
+  border: 1px solid #ccc;
+  padding-left: 7%;
+  margin-bottom: 5%;
+}
+.state-result-name-box:hover{
+  background: #f5f5f5;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    cursor: pointer;
+}
+.state-name:hover{
+      color: #fd7901;
+       text-decoration: none;
+}
+/*  State Results Page*/
+/* Gujarat State Detail page*/
+.state-tabs .nav-tabs { border-bottom: 2px solid #DDD; margin-top: 0px;
+width: 38%;
+margin: 0 auto;}
+.state-tabs     .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  border-width: 0;
+}
+.state-tabs     .nav-tabs > li > a { border: none; color: #fff;    background: inherit;font-size: 15px; }
+.state-tabs      .nav-tabs > li.active > a, .state-tabs    .nav-tabs > li > a:hover { border: none; color: #fff !important; background: transparent;font-size: 15px; }
+.state-tabs         .nav-tabs > li > a::after { content: ""; background: #fd9c3c; height: 2px; position: absolute; width: 100%; left: 0px; bottom: -1px; transition: all 250ms ease 0s; transform: scale(0); }
+.state-tabs     .nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { transform: scale(1); }
+.state-tabs  .tab-nav > li > a::after { background: #21527d none repeat scroll 0% 0%; color: #fff; }
+.state-tabs  .tab-pane { padding: 15px 0; }
+.state-tabs .tab-content{padding:20px}
+.state-tabs  .card {background: #FFF none repeat scroll 0% 0%; box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); margin-bottom: 30px; }
+.guj-inner-link{
+  font-size: 14.5px;
+    color: #131212;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 2%;
+    cursor: pointer;
+    font-weight: 400;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+        width: 100%;
+}
+.guj-inner-link::before{
+  color: #fd9c3c;
+    content: "\f101";
+    display: inline-block;
+    font-family: fontawesome;
+    font-size: 15px;
+    left: 0;
+    margin-left: 5px;
+    margin-right: 8px;
+    float: left;
+}
+.guj-publish-date{
+    font-size: 12px;
+    color: grey;
+    /* margin-bottom: 2%; */
+    display: inline-block;
+    margin-left: 2%;
+}
+.state-tab-bg {
+    width: 100%;
+    background: #348aaa;
+}
+th{
+  background: #f1f1f1;
+  color: #676666;
+  border-right: 1px solid #ddd;
+  /* border-top: 1px solid #ccc; */
+  border-bottom: 1px solid #cacaca;
+}
+.guj-description{
+  margin-top: 3%;
+}
+.guj-description ol{
+  padding-left: 2%;
+}
+.guj-description h5{
+       /* color: #4d586c; */
+    color: #ff7900;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  padding-bottom: 1%;
+  border-bottom: 1px solid #d8cfcf;
+      font-weight: 600;
+}
+.download-link-btn{
+    border: 1px solid #ff9c3c;
+    background-color: #ff9c3c;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    font-weight: 400;
+    padding: 4px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+.download-link-btn:hover{
+text-decoration: none;
+
+}
+.state-results-all-btn{
+  border: 1px solid #ff9c3c;
+  margin-top: 3%;
+  background-color: #ff9c3c;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  font-weight: 400;
+  padding: 8px 30px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+}
+.s7{
+    margin-top: 13%;
+}
+.guj-description p,ol{
+  line-height: 28px;
+}
+.guj-sidebar-link{
+  font-size: 12.5px;
+  text-align: left;
+  color: #131212;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-weight: 400;
+  border-bottom: 1px solid #e2dcdc;
+  padding-bottom: 5px;
+  padding-left: 2%;
+  padding-right: 3%;
+}
+.guj-description ul li{
+  margin-top: 2%;
+}
+.guj-sidebar-link:hover{
+  text-decoration: none;
+  color:#ff9a4a;
+}
+.guj-sidebar-link span{
+  width: 80%;
+  float: left;
+}
+.related-exam-results-box ul{
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 2%;
+}
+.guj-sidebar-link::before {
+    color: #fd9c3c;
+    content: "\f101";
+    display: inline-block;
+    font-family: fontawesome;
+    font-size: 15px;
+    left: 0;
+    margin-left: 5px;
+    margin-right: 8px;
+    padding-left: 0%;
+    padding-right: 5%;
+    float: left;
+}
+.related-exam-results-box{
+    border: 1px solid #d6d6d6;
+    padding-top: 2%;
+    border-top: 5px solid #fd9c3c;
+    padding-bottom: 2%;
+    margin-bottom: 8%;
+    background: white;
+}
+.state-results-detail-box{
+  width: 66%;
+  float: left;
+  background: white;
+  margin-left: 4%;
+  margin-top: 2%;
+  padding: 2%;
+  border: 1px solid #e0d9d9;
+  border-radius: 4px;
+  margin-bottom: 4%;
+}
+ .bd2{
+  margin-top: 8%;
+}
+/*Gujarat State Detail page Ends*/
+/* .redbtn{
+  background:#d34836;
+
+}
+.greenbtn{
+  background:#47b77e;
+}
+.bluebtn{
+  background: #15b9d3;
+}
+.orangebtn{
+   background: #d4678c;
+}
+.darkgreen{
+   background: #2a525c;
+}
+.yellow{
+     background: #fbaf23;
+}
+.green2{
+  background: #3f51b5;
+
+}
+.grey-btn{
+  background:#9a5933;
+
+} */
+.green-uniraj-btn , .green-uniraj-btn:hover{
+  background: #43bc19 !important;
+  border:1px solid #43bc19 !important;
+  border-radius:4px;
+  color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    font-weight: 400;
+    margin-top: 1%;
+    display: inline-block;
+    padding: 10px 20px;
+    padding: 10px 45px;
+    font-size: 15px;
+    margin-right: 4px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    box-shadow: 0px 4px 5px 0px rgba(47, 47, 47, 0.31);
+}
+.red-uniraj-btn , .red-uniraj-btn:hover{
+  background: #f01615 !important;
+  border:1px solid #f01615 !important;
+  border-radius:4px;
+  color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    font-weight: 400;
+    margin-top: 1%;
+    display: inline-block;
+    padding: 10px 20px;
+    padding: 10px 45px;
+    font-size: 15px;
+    margin-right: 4px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    box-shadow: 0px 4px 5px 0px rgba(47, 47, 47, 0.31);
+}
+.blue-uniraj-btn , .blue-uniraj-btn:hover{
+  background: #009fd1 !important;
+  border:1px solid #009fd1 !important;
+  border-radius:4px;
+  color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    font-weight: 400;
+    margin-top: 1%;
+    display: inline-block;
+    padding: 10px 20px;
+    padding: 10px 45px;
+    font-size: 15px;
+    margin-right: 4px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    box-shadow: 0px 4px 5px 0px rgba(47, 47, 47, 0.31);
+}
+.uniraj-upper-link{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    font-weight: 400;
+    margin-top: 1%;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-right: 4px;
+    cursor: pointer;
+    background:#0f96ae;
+    border:1px solid #0f96ae;
+    border-radius: 50px;
+    letter-spacing: 0.5px;
+    box-shadow: 0px 4px 5px 0px rgba(47, 47, 47, 0.31);
+}
+.uniraj-upper-link:hover{
+  background:transparent;
+      border:1px solid #0f96ae;
+      color:#0f96ae;
+        text-decoration: none;
+}
+.largebox{
+  margin-bottom: 4% !important;
+}
+.largebox img{
+  width: 45%;
+  float: left;
+  margin-left:35%;
+}
+.largebox hr{
+  margin-top: 0;
+  margin-bottom: 5px;
+  border-top: 1px solid #cac6c6;
+}
+.largebox p{
+  font-size: 12px;
+}
+.largebox h5{
+    color: #000;
+}
+.largebox button{
+  margin-left: 5%;
+}
+.largebox-box-inner{
+  padding-right: 0;
+}
+.btn-active1{
+  background:#ff9a4a;
+        border:1px solid #ff9a4a;
+    /* border-bottom:  2px solid black !important; */
+    /* border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; */
+
+}
+.video-uniraj-h5{
+  font-size: 15px;
+    padding-left: 2%;
+    padding-bottom: 12px;
+    color: #000;
+    font-weight: 400;
+    border-bottom: 1px solid #dad7d7;
+}
+h1{
+  font-size: 22px;
+color: #3389a7;
+}
+
+.uniraj-upper-links-box{
+  margin-left: 4%;
+}
+.other-listing-box1 {
+    color: #333;
+    padding-bottom: 4%;
+      margin-bottom: 8%;
+      min-height: 300px;
+    min-height: 300px;
+    border-radius: 6px;
+    border: 1px solid #cecece;
+    background: white;
+}
+.other-listing-box1 ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.other-listing-box1 h4 {
+    font-size: 15px;
+  padding-left: 6%;
+  display: inline-block;
+    /* padding-bottom: 12px; */
+    color: white;
+    font-weight: 400;
+    /* border-bottom: 1px solid #aba9a9; */
+
+}
+.other-listing-box1 ul li {
+    line-height: 38px;
+    color: #333;
+    font-weight: 400;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 14px;
+}
+.other-listing-box1 ul li a{
+  color: #333;
+}
+.other-listing-box1 ul li a:before{
+  color: #fd9c3c;
+  content: "\f101";
+  display: inline-block;
+  font-family: fontawesome;
+    font-weight: 600;
+  font-size: 15px;
+  left: 0;
+  /* margin-left: 5pgx; */
+  margin-right: 5px;
+
+}
+.other-listing-box1-inner {
+    padding-top: 0%;
+        margin-bottom: 2%;
+      background: linear-gradient(-45deg,#384354, #465267);
+    /* background: linear-gradient(#545353, #101010); */
+    /* border-top-left-radius: 6px;
+    border-top-right-radius: 6px; */
+    /* background: #4d586c; */
+}
+.other-listing-box1-inner iframe{
+  width: 100px;
+  margin-top: 2%;
+}
+.other-listing-box1 .viewmorebtn {
+    background: transparent;
+    border: 1px solid #333;
+    color: #333;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-left: 0%;
+    text-transform: uppercase;
+    padding: 7px 7px;
+    margin-top: 2%;
+     margin-left: 5%;
+    font-size: 12px;
+}
+.other-info1 , .other-info1 a {
+  color:grey;
+}
+.other-info1 span {
+    color: #fd9c3c;
+  }
+  /*  Timetable main listing Css starts*/
+.timetable-link{
+    font-size: 14.5px;
+    color: #131212;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 5px 0;
+    width: 100%;
+}
+.timetable-link:before{
+  color: #fd9c3c;
+  content: "\f101";
+  display: inline-block;
+  font-family: fontawesome;
+  font-size: 15px;
+  left: 0;
+  margin-left: 5px;
+  margin-right: 8px;
+  float: left;
+}
+.timetable-listing{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.listing-para{
+  font-size: 12px;
+  color: #3589aa;
+  padding-bottom: 5px;
+  margin-bottom: 2%;
+  padding-top: 2px;
+  padding-left: 2%;
+  border-bottom: 1px solid #d0cfcf;
+  width: 100%;
+  display: inline-block;
+}
+.banner-logo {
+  width: 100%;
+}
+.banner-content h1 {
+  margin-top: 0px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+}
+.banner-content p span i {
+  padding-right: 7px;
+}
+.banner-content p span {
+  padding-right: 10px;
+}
+.banner-field {
+  position: relative;
+}
+.other-listing-box1 iframe {
+  width: 100%;
+}
+.fullwith {
+  width: 100%;
+  float: left;
+}
+.tab-content .courses {
+  min-height: auto;
+}
+.advertisements {
+  width: 100%;
+  float: left;
+  margin-top: 0px;
+}
+.sidebox .searchbox.s1 {
+  margin-top: 13%;
+}
+.paginationfield {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.courses-less-min-height.organizations-details-ul {
+  padding-left: 0px;
+}
+
+/* 22-5-2018 */
+.videoboxfield {
+  position: relative;
+}
+.youtubeiconbox {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+}
+.video-detail-main-video iframe {
+  width: 100%;
+}
+/* 22-5-2018 */
+
+/* 23-5-2018 */
+.state-tabs .nav-tabs {
+  width: auto;
+}
+.state-tab-bg .nav-tabs li {
+    width: 33.33%;
+    text-align: center;
+}
+.mainunivercityfiled {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+/* 23-5-2018 */
+
+    /*  Timetable main listing Css ends*/
+@media screen and (max-width:1200px){
+  .organization-outer ul li {
+     margin-bottom:0;
+}
+
+}
+
+@media screen and (max-width:1080px) {
+    .university1 button {
+        width: 70%;
+    }
+
+    .uniraj-logo {
+        width: 80%;
+    }
+    .university1-bannerbox {
+    /* margin-top: 16%; */
+}
+}
+@media screen and (max-width:1024px){
+  .university1{
+        min-height: 155px;
+  }
+    .uniraj-logo {
+        width: 87%;
+    }
+    .university1 h5 {
+        margin-left: -25px;
+    }
+    .university1 span {
+      margin-left: -22px;
+      margin-top: 7px;
+    }
+    .view-all-sidebar-grp-btn{
+      margin-left: 0;
+    }
+    .forum-banner h4{
+          margin-top: 15%;
+    }
+    .state-tabs .nav-tabs{
+          /* width: 50%; */
+    }
+}
+@media screen and (max-width:1000px){
+    .forum-left {
+        width: 92%;
+    }
+
+    .forum-right {
+        width: 50%;
+        margin-left: 6%;
+    }
+  .university-box {
+      margin-top: 2%;
+      width: 96%;
+      margin-left: 2%;
+      float: left;
+  }
+    .sidebox {
+        width:50%;
+        margin-left:25%;
+    }
+    .top-universitiesbox ul li {
+        margin-bottom: 27px;
+
+    margin-top:2px;
+    margin-left:0;
+    }
+    .sidebar-uni-img1 {
+    margin-top:-10px;
+    }
+    .sidebar-uni-img {
+    margin-top:-10px;
+    }
+    .search-university, .search-university.active, .search-university:hover {
+    background-position: 96%;
+    }
+    .university-detailbox {
+    margin-top: 2%;
+    width: 96%;
+}
+.join-link{
+  margin-left: 0;
+}
+}
+@media screen and (max-width:984px) {
+  .university_loc{
+    margin-left: 0;
+  }
+  .forum-tabs {
+      width:100%;
+  }
+}
+@media screen and (max-width:950px) {
+    .university-banner {
+        min-height:400px;
+    }
+    .university-banner h5 {
+        margin-top:25%;
+    }
+}
+@media screen and (max-width:874px) {
+
+.forum-banner {
+    min-height: 330px;
+}
+.forum-search-header input{
+  border-radius: 4px;
+  margin-bottom: 2%;
+}
+}
+@media screen and (max-width:850px) {
+  .state-results-box {
+      margin-bottom: 0;
+      width: 92%;
+    }
+    .state-result-banner-box{
+      top:40%;
+    }
+    .states-result-sidebar{
+      width: 90%;
+      margin-left: 5%;
+    }
+    .state-tabs .nav-tabs {
+      /* width: 50%; */
+    }
+    .university1-bannerbox.bannercontent-field {
+      /* margin-top: 16%; */
+    }
+    .banner-content h1 {
+      margin-top: 15px;
+    }
+    .sidebox {
+      width: 92%;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    .other-listing-box1 iframe {
+      width: 100%;
+    }
+    .universitylogo li {
+      float: left;
+      width: 100%;
+    }
+    .universitylogo li span {
+      width: 80px;
+      float: left;
+    }
+    .universitylogo li img {
+      width: 100%;
+    }
+    .universitylogo li a {
+      width: calc(100% - 100px);
+      float: right;
+    }
+    .universitylogo li a.universitybtn, .universitybtn {
+      width: 100%;
+      text-align: center;
+      float: left;
+    }
+    .related-exam-results-box li {
+      text-align: left;
+      padding-right: 15px;
+    }
+    .related-exam-results-box li a {
+      padding-left: 0px;
+      width: 100%;
+    }
+    .related-exam-results-box li a::before {
+      width: 40px;
+      padding-right: 0px;
+    }
+    .related-exam-results-box li a span {
+      width: calc(100% - 60px);
+      float: right;
+    }
+    .related-exam-results-box {
+      float: left;
+    }
+    .results-listing {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .sidebox .searchbox.s1{
+      margin-top: 10px;
+    }
+    .footer-para {
+      word-break: break-all;
+    }
+    .sidebox.organizationbox {
+      margin-right: 15px;
+      margin-left: 15px;
+      width: 96%;
+    }
+    .courses-less-min-height {
+      min-height: 0px;
+    }
+    .sidebox.universitysidebox {
+      width: 96%;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .mainunivercityfiled .university1-bannerbox {
+      transform: translateY(-50%);
+    }
+}
+@media screen and (max-width:800px) {
+    .university-box img {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 9px;
+    }
+    .uniraj-logo {
+        width:80% !important;
+        margin-bottom:10px !important;
+    }
+    .university1-bannerbox {
+    /* margin-top: 27%; */
+}
+    .forum-banner h4 {
+        color: white;
+        text-align: center;
+        margin-top: 27%;
+    }
+    .university-banner h5 {
+    margin-top: 32%;
+}
+    .forum-tabs {
+    width: 100%;
+}
+    .forum-right {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .forum-search-header input {
+        margin-bottom:2%;
+    }
+    .forum-search-header {
+        margin-bottom: 5%;
+    }
+    .padlftrit30 {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .forum-banner h4 {
+        color: white;
+        text-align: center;
+        margin-top: 8%;
+    }
+}
+@media screen and (max-width:767px) {
+  .state-tabs .nav-tabs {
+    width: 100%;
+    text-align: center;
+}
+.state-tabs .nav-tabs li {
+    width: 33.33%;
+}
+    .uniraj-logo {
+        width: 15% !important;
+    margin-bottom: 10px !important;
+    float: left;
+    }
+    .university1 h5 {
+        margin-left:0;
+    }
+    .university1 span {
+        margin-left:0;
+    }
+    .star-rating {
+    display: inline-block;
+    margin-left: 4%;
+    height: 29px;
+    margin-top: 1%;
+    float:left;
+}
+    .university1 button {
+    width: 30%;
+    margin-left:2%;
+    margin-top:1%;
+    float:left;
+}
+    .university-banner h5 {
+    margin-top: 44%;
+}
+  /* .sidebox {
+    width: 70%;
+    margin-left: 15%;
+  } */
+  .banner-content h1 {
+    margin-top: 0px;
+  }
+  .green-uniraj-btn, .green-uniraj-btn:hover {
+    padding: 10px 35px;
+  }
+  .largebox-box-inner {
+    width: 20%;
+  }
+  .largebox-box-inner img {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .imageconternt {
+    width: 80%;
+    float: left;
+  }
+  .newsfiled .row {
+    margin-bottom: 20px;
+  }
+
+.s1 {
+    margin-top: 0%;
+}
+.video-inner {
+    margin-bottom: 4%;
+  }
+  .videopg-videobox {
+    padding-bottom: 24.25%;
+}
+.sidebar-uni-img {
+    width: 6%;
+    float: left;
+    margin-right: 10px;
+}
+}
+@media screen and (max-width:700px) {
+    .organization-outer ul li {
+    margin-bottom: 0;
+    height: 85px;
+  }
+  .university1-bannerbox.bannercontent-field {
+    /* margin-top: 20%; */
+  }
+  .green-uniraj-btn,
+  .green-uniraj-btn:hover,
+  .blue-uniraj-btn,
+  .blue-uniraj-btn:hover,
+  .red-uniraj-btn,
+  .red-uniraj-btn:hover {
+  padding: 10px 20px;
+  }
+}
+@media screen and (max-width:600px) {
+  .university1-bannerbox {
+    /* margin-top: 32%; */
+  }
+  .university1-bannerbox.bannercontent-field {
+    /* margin-top: 17%; */
+  }
+  .university1-banner img {
+    min-height: 240px;
+  }
+  .green-uniraj-btn,
+  .green-uniraj-btn:hover,
+  .blue-uniraj-btn,
+  .blue-uniraj-btn:hover,
+  .red-uniraj-btn,
+  .red-uniraj-btn:hover {
+      padding: 10px 15px;
+  }
+  .top-universitiesbox ul {
+    padding-left: 0px;
+  }
+  .videosection {
+    width: 100%;
+  }
+  .other-listing-box1 {
+    width: 100%;
+    float: left;
+  }
+  .other-listing-box1 iframe {
+    height: 200px;
+  }
+  .tab-content .courses {
+    text-align: left;
+  }
+  .video-inner {
+    margin-bottom: 25%;
+  }
+}
+@media screen and (max-width:550px) {
+
+.states-result-sidebar {
+    width: 86%;
+    margin-left: 7%;
+}
+}
+@media screen and (max-width:500px) {
+.state-tabs .nav-tabs li {
+    width: 30.33%;
+}
+}
+@media screen and (max-width:480px) {
+  .state-result-banner-box {
+    top: 33%;
+}
+  .sidebox {
+    width: 96%;
+    margin-left: 2%;
+  }
+  .logo-filed {
+    width: 25%;
+  }
+  .banner-content {
+    width: 75%;
+  }
+  .university1-banner img {
+    min-height: 210px;
+  }
+  .university1-bannerbox.bannercontent-field {
+    /* margin-top: 15%; */
+  }
+  .banner-content h1 {
+    line-height: initial;
+  }
+  .green-uniraj-btn, .green-uniraj-btn:hover,
+  .blue-uniraj-btn, .blue-uniraj-btn:hover,
+  .red-uniraj-btn, .red-uniraj-btn:hover {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .results-listing {
+    padding: 10px;
+  }
+  .other-listing-box1 iframe {
+    height: auto;
+  }
+  .sidebox .top-universitiesbox,
+  .sidebox .related-exam-results-box,
+  .sidebox .advertisements,
+  .sidebox .searchbox {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .sidebox.unirajsidebox .searchbox,
+  .sidebox.unirajsidebox .top-universitiesbox,
+  .sidebox.unirajsidebox .advertisements {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .sidebox.unirajsidebox .advertisements {
+    width: 100%;
+  }
+  .university-banner.organizationbanner {
+    min-height: 300px;
+  }
+  .university-banner.organizationbanner h5 {
+    margin-top: 32%;
+  }
+  .university1 .star-rating {
+    width: 100%;
+    display: block;
+  }
+  .university1 {
+    min-height: auto;
+    padding-bottom: 20px;
+  }
+  .organizationbtn a {
+    width: 100%;
+    text-align: center;
+    float: left;
+  }
+  .organizationbtn a button {
+    width: auto;
+    float: none;
+    margin: 0;
+  }
+  .sidebox.organizationbox {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+  .sidebox.organizationbox .searchbox.s1,
+  .sidebox.organizationbox .top-universitiesbox,
+  .sidebox.organizationbox .advertisements {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .sidebox.organizationbox .advertisements {
+    width: 95%;
+  }
+  .orgnizationtopbox {
+    width: auto;
+  }
+  .sidebar-uni-img {
+width: 10%;
+float: left;
+margin-right: 10px;
+margin-left: 7px;
+}
+}
+@media screen and (max-width:450px) {
+  .state-tabs .nav-tabs li {
+      width: 100%;
+    margin-left: 0;
+      padding-left: 0;
+  }
+}
+@media screen and (max-width:414px) {
+
+  .organization-outer ul li {
+      height:auto;
+  }
+}
+@media screen and (max-width:360px) {
+   .organization-outer ul li {
+    height: 89px;
+  }
+  .university1-bannerbox {
+      /* margin-top: 69%; */
+  }
+  .banner-content h1 {
+    font-size: 18px;
+  }
+  .logo-filed {
+      width: 30%;
+  }
+  .banner-content {
+      width: 70%;
+  }
+  .banner-content p span {
+    display: block;
+    padding-right: 0px;
+  }
+  .related-exam-results-box li a span {
+    word-break: break-word;
+  }
+  .university1-banner img {
+    min-height: 170px;
+  }
+  .university1-bannerbox.bannercontent-field {
+    /* margin-top: 12%; */
+  }
+  .pagination a {
+    padding: 6px 12px;
+  }
+}
+@media screen and (max-width:320px) {
+  .university1 button {
+        width: 45%;
+      }
+
+}

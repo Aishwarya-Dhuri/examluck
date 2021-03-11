@@ -1,0 +1,656 @@
+.home-searchbox-logged-in {
+    box-sizing: border-box;
+    border: 1px solid #cacaca;
+    border-radius: 4px;
+    font-size: 12px;
+    color: white;
+    background-color: #1f1f1f00;
+    background-image: url(../images/search-icon.png);
+    background-repeat: no-repeat;
+    padding: 8px 55px 8px 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    background-size: 17px 17px;
+    background-position: 4px;
+    width: 100%;
+    margin-left: -12%;
+}
+.menu-view-all ,.menu-view-all:hover{
+  background: #ff9a4a ;
+  color:white !important;
+  width: 80% !important;
+  float: left;
+margin-top: 30% !important;
+     padding: 10px 10px !important;
+text-align: center;
+}
+.anchor-label{
+  display: block;
+font-size: 10px !important;
+}
+.home-searchbox-logged-in::placeholder {
+  color: white;
+}
+.home-searchbox:focus{
+content: "";
+}
+.logged-in-navbar .nav-pills>li+li {
+    margin-left: 15px;
+}
+.home-searchbox-logged-in:focus {
+       outline:none;
+}
+.user-img{
+  width: 27%;
+  float: left;
+  margin-top: -8px;
+  margin-left: 30%;
+  display: inline-block;
+}
+.logged-in-user{
+  max-height: 20px;
+  width:100%;
+  float: left;
+}
+.logged-in-user li{
+
+}
+.logged-in-navbar{
+  min-height: 37px !important;
+  padding: 0;
+  margin-left: -25px;
+  float: right;
+}
+.logged-in-user li a , .logged-in-user  li a:hover{
+  padding: 0px 0px;
+      display: inline-block;
+      color: white;
+      border-radius:0 !important;
+      float: left;
+      background: none !important;
+      text-align: center;
+      padding-left: 8px;
+      padding-right: 8px;
+      text-decoration: none;
+      font-size: 12px;
+      border-right: 1px solid;
+      height: 20px;
+      margin-top: 5px;
+}
+.my-profile-link {
+    color: black !important;
+    padding-left: 10px !important;
+    border-right:none !important;
+    height:30px !important;
+}
+.logged-in-user .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+  background-color: #17A2B8;
+}
+.logged-in-user .myprofile-menu{
+  width: inherit !important;
+}
+/* .home-searchbox{
+  width: 155%;
+  border-radius: 3px;
+  font-size: 10px;
+  border: 1px solid #c3c3c3;
+  color: #fdfdfd;
+  padding: 7px 1px 7px 10px;
+  margin-top: 4px;
+  background: #52525200;
+  border: 1px solid #fd9c3c;
+} */
+ .home-searchbox{
+   box-sizing: border-box;
+   border: 1px solid #cacaca;
+   border-radius: 4px;
+   font-size: 12px;
+  color: white;
+   background-color: #1f1f1f00;
+   background-image: url(../images/search-icon.png) ;
+   background-repeat: no-repeat;
+   padding: 8px 55px 8px 30px;
+   -webkit-transition: width 0.4s ease-in-out;
+   transition: width 0.4s ease-in-out;
+   margin-top: 10px;
+   margin-bottom: 3px;
+   background-size: 17px 17px;
+   background-position: 4px;
+  width: 50%;
+
+ }
+.home-searchbox::placeholder {
+  color: white;
+}
+ .home-searchbox:focus {
+       outline:none;
+}
+.myprofile-menu:before{
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 12px;
+    border: 10px solid white !important;
+    border-color: transparent transparent white transparent !important;
+}
+.button__badge{
+  color: white !important;
+      background: #ff9a4a;
+      /* padding: 2px; */
+      border-radius: 9px;
+      font-size: 10px !important;
+      width: 15px !important;
+      height: 16px !important;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      padding-top: 1px;
+      margin-top: -19px;
+      margin-left: -5px;
+}
+.logged-in-user .dropdown-menu{
+    /* top: 35px; */
+    left: unset;
+      right: 48%;
+    width: 410px;
+    /* box-shadow: 0px 5px 7px -1px #c1c1c1; */
+    padding-bottom: 0px;
+    padding: 0px;
+    /* left: 0%;
+    right: unset; */
+    margin-left: 0;
+    margin-right: -1px;
+}
+.logged-in-user .dropdown-menu:before{
+  content: "";
+  position: absolute;
+  top: -19px;
+  right: 0px;
+  border: 10px solid #fd9c3c;
+    border-color: transparent transparent #fd9c3c transparent;
+}
+.dropdown-item.my-profile-link, .dropdown-item.my-profile-link:hover {
+  height: auto !important;
+  margin: 0px;
+  text-align: center;
+  padding: 5px 0px;
+  padding-left: 0px !important;
+}
+.dropdown:hover , .dropdown:focus{
+  outline: none !important;
+  border: none !important;
+}
+.notify-head{
+  color:white !important;
+}
+.logged-in-user .head{
+  padding:5px 15px;
+  border-radius: 3px 3px 0px 0px;
+  background: #fd9c3c !IMPORTANT;
+}
+.logged-in-user .footer{
+  margin-bottom: 30px !important;
+  margin-top: 9px !important;
+  border-radius: 0px 0px 3px 3px;
+}
+.logged-in-user .notification-box{
+  padding: 10px 15px;
+}
+.logged-in-user .bg-gray{
+  background-color: #eee;
+}
+.view-all-notification{
+  color: #ff9a4a !important;
+  font-weight:700 !important;
+  text-align: center !important;
+}
+.logged-in-user .profile-btn, .profile-btn:hover, .profile-btn:focus {
+    outline: none !important;
+    font-size: 12px;
+    color: white !important;
+    border: none !important;
+    background: none !important;
+    margin-top: -3px;
+    /* margin-left: 10px; */
+}
+ .profile-btn:focus, .profile-btn:active {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.logged-in-user span, .logged-in-user dropdown span {
+    /* margin-right: 5px; */
+    /* color: #ff9a4a; */
+  color: #949392;
+    font-size: 15px;
+}
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Body - not related to megamenu
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      /* z-index: 5; */
+          z-index: 999;
+      background-color: #3a3f43 !important;
+}
+ .topnav-outer{
+    background: rgba(0, 0, 0, 0.43);
+    border-bottom: 2.3px solid #fd9c3c;
+}
+.menu{
+  //width: 90%;
+  margin: 0 auto;
+  margin-left: 5%;
+}
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+megamenu.js STYLE STARTS HERE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Screen style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* .search-container{
+  width: 25%;
+  float: left;
+    background: rgba(0, 0, 0, 0.43);
+} */
+.menu-container {
+    width: 80%;
+    /* width: 75%; */
+    /* float: left; */
+    margin: 0 auto;
+    /* background: rgba(0, 0, 0, 0.43); */
+}
+.menu-mobile {
+    display: none;
+    padding: 20px;
+}
+.menu-mobile:after {
+    content: "\f394";
+    font-family: "Ionicons";
+    font-size: 2.5rem;
+    padding: 0;
+    float: right;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-25%);
+    -ms-transform: translateY(-25%);
+    transform: translateY(-25%);
+}
+.main-menu-category{
+  color:#e87011 !important;
+  font-weight: 700;
+}
+.menu-subcategory{
+  /* margin-bottom: 20px !important; */
+}
+.menu .active  {
+  background-color: #fd9c3c;
+    color: white;
+}
+.menu-dropdown-icon:before {
+    content: "\f489";
+    font-family: "Ionicons";
+    display: none;
+    cursor: pointer;
+    float: right;
+    padding: 1.5em 2em;
+    background: #fff;
+    color: #333;
+}
+.menu > ul {
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
+    box-sizing: border-box;
+}
+.menu > ul:before,
+.menu > ul:after {
+    content: "";
+    display: table;
+}
+.menu > ul:after {
+    clear: both;
+}
+.menu > ul > li {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.menu > ul > li a {
+    text-decoration: none;
+    padding: 0.8em 2em;
+    margin-right:5px;
+    display: block;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.menu > ul > li a:hover {
+    background: #ff9a4a;
+}
+.menu > ul > li > ul {
+    display: none;
+    width: 100%;
+    background: #f3f3f3;
+    border:2px solid #d8d8d8;
+    padding: 20px;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px 0px rgba(47, 47, 47, 0.31);
+}
+.menu > ul > li > ul:before,
+.menu > ul > li > ul:after {
+    content: "";
+    display: table;
+}
+.menu > ul > li > ul:after {
+    clear: both;
+}
+.menu > ul > li > ul > li {
+    margin: 0;
+    padding-bottom: 0;
+    list-style: none;
+    /* //width: 25%; */
+    width: 20%;
+    background: none;
+    float: left;
+}
+.menu > ul > li > ul > li a {
+    color: #1d1d1d;
+    padding: .2em 0;
+    width: 95%;
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+.menu > ul > li > ul > li a:hover {
+    color: #167ac6 !important;
+    background: transparent !important;
+}
+.menu > ul > li > ul > li > ul {
+    display: block;
+    padding: 0;
+    /* margin: 10px 0 0; */
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.menu > ul > li > ul > li > ul:before,
+.menu > ul > li > ul > li > ul:after {
+    content: "";
+    display: table;
+}
+
+.menu > ul > li > ul > li > ul:after {
+    clear: both;
+}
+
+.menu > ul > li > ul > li > ul > li {
+    float: left;
+    width: 100%;
+    padding: 0px 0;
+    margin: 0;
+    font-size: .8em;
+}
+
+.menu > ul > li > ul > li > ul > li a {
+    border: 0;
+}
+
+.menu > ul > li > ul.normal-sub {
+    width: 300px;
+    left: auto;
+    padding: 10px 20px;
+}
+
+.menu > ul > li > ul.normal-sub > li {
+    width: 100%;
+}
+
+.menu > ul > li > ul.normal-sub > li a {
+    border: 0;
+    padding: 1em 0;
+}
+.logofiled, .searchfiled {
+  width: 20%;
+  float: left;
+}
+.loginfiled {
+  width: 60%;
+  float: left;
+}
+.logofiled .logo-loggedin {
+  width: 60.8%;
+}
+.loginfiled .dropdown-toggle::after {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+}
+.logged-in-navbar .nav-pills>li+li {
+  margin-left: 0px;
+}
+.logged-in-user li a, .logged-in-user li a:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header-topmost {
+  height: 58px;
+}
+
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Mobile style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media only screen and (max-width: 1159px) {
+  .menu-container {
+      width: 100%;
+  }
+
+
+}
+
+@media only screen and (max-width: 991px) {
+
+  .logged-in-user {
+      max-height: 20px;
+      width: 100%;
+      float: left;
+      margin-top: -11px;
+  }
+  .home-searchbox {
+      margin-left: 4%;
+  }
+}
+@media only screen and (max-width: 959px) {
+
+    .menu-mobile , .menu-mobile:hover, .menu-mobile:focus{
+        display: block;
+        color: white;
+    }
+    .menu-dropdown-icon:before {
+        display: block;
+    }
+    .menu > ul {
+        display: none;
+    }
+    .menu > ul > li {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    .menu > ul > li a {
+        padding: 1.5em;
+        width: 100%;
+        display: block;
+    }
+    .menu > ul > li > ul {
+        position: relative;
+    }
+    .menu > ul > li > ul.normal-sub {
+        width: 100%;
+    }
+    .menu > ul > li > ul > li {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .menu > ul > li > ul > li:first-child {
+        margin: 0;
+    }
+    .menu > ul > li > ul > li > ul {
+        position: relative;
+    }
+    .menu > ul > li > ul > li > ul > li {
+        float: none;
+    }
+    .menu .show-on-mobile {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 839px) {
+  .logged-in-user {
+      max-height: 20px;
+      width: 100%;
+      float: left;
+      margin-top: -20px;
+      display: inline-block;
+  }
+
+  .logged-in-user li {
+      /* float: initial; */
+      position: inherit;
+  }
+  .loginfiled {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+  }
+  .logged-in-user li {
+    float: left;
+  }
+  .loginfiled .navbar-toggler {
+    display: none;
+  }
+  .loginfiled .navbar-collapse {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .logofiled {
+    width: 25%;
+    float: left;
+  }
+  .logofiled .logo-loggedin {
+    width: 90%;
+    margin-left: 0px;
+  }
+  .searchfiled {
+    width: 75%;
+    float: right;
+  }
+  .searchfiled form {
+    float: right;
+  }
+  .searchfiled form input {
+    margin-left: 0px;
+  }
+  .header-topmost{
+    height: auto;
+  }
+  header, .sticky  {
+    position: static;
+  }
+}
+@media only screen and (max-width: 800px) {
+.home-searchbox{
+  width: 80%;
+  margin-bottom: 10px;
+}
+.topnav-outer{
+      background: rgba(0, 0, 0, 0.77);
+}
+.search-container form{
+  text-align: center;
+}
+}
+@media only screen and (max-width: 750px) {
+.header-topmost{
+  height: auto;
+}
+
+}
+@media screen and (max-width:571px){
+.home-searchbox{
+  width:100%;
+  margin-left: 0;
+
+}
+
+}
+@media only screen and (max-width: 480px) {
+  .logofiled, .searchfiled {
+    width: 100%;
+  }
+  .logofiled .logo-loggedin {
+    width: 50%;
+  }
+  #navbar .header-topmost {
+    padding-right: 15px;
+  }
+  .searchfiled form {
+    float: none;
+  }
+  .logofiled .logo-loggedin {
+    transform: translateX(50%);
+  }
+  header, .sticky {
+    position: static;
+  }
+  .anchor-label {
+    display: none;
+  }
+  .user-img {
+    margin-left: 0px;
+    float: none;
+  }
+  .logged-in-user li:first-child {
+    width: 30%;
+  }
+  .logged-in-user li a, .logged-in-user li a:hover {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .user-img {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .logged-in-user span,
+  .logged-in-user dropdown span {
+    font-size: 14px;
+  }
+  .logged-in-user li a,
+  .logged-in-user li a:hover {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+  .logged-in-navbar {
+    margin-left: -20px;
+  }
+}

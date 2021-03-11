@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Analysis</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/testpaper.css" />
+  <link rel="stylesheet" href="css/popup.css" />
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Skipped', 'Incorrect', 'Correct'],
+          ['2014', 1000, 400, 200],
+          ['2015', 1170, 460, 250],
+          ['2016', 660, 1120, 300],
+          ['2017', 1030, 540, 350]
+        ]);
+
+        var options = {
+          chart: {
+            // title: 'Company Performance',
+            // subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+</head>
+  <body style="background: #F5F8F9;" class="analysisfield">
+<div class="container-fluid">
+<div class="row anyalsis-header">
+  <div class="col-md-6 col-sm-6 col-xs-6">
+      <a href="myetests.html" class="back-to-test-link"> <i class="fa fa-arrow-left backarrow"></i>My Tests</a>
+  </div>
+
+  <div class="col-md-6 right-link col-sm-6 col-xs-6">
+    <a href="" class="solutions-link pull-right">Solutions</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-3 col-md-12 col-sm-12 quickstatus">
+    <div class="row">
+      <div class="col-md-12 statusfield">
+        <div class="quick-status-box">
+          <h5 class="quick-status-heading">Quick Status</h5>
+                <div class="quick-status-each">
+                      <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                              <img src="images/forum/anal-icon1.png" class="img-responsive status-icons"/>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <h3 class="myrank">1183 <span class="total-rank">/12164</span></h3>
+                                <p class="mar-b0">RANK</p>
+                            </div>
+                      </div>
+                </div>
+                <div class="quick-status-each">
+                      <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                              <img src="images/forum/anal-icon2.png" class="img-responsive status-icons"/>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <h3 class="myrank">100 <span class="total-rank">/ 250</span></h3>
+                                <p class="mar-b0">SCORE</p>
+                            </div>
+                      </div>
+                </div>
+                <div class="quick-status-each">
+                      <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                              <img src="images/forum/anal-icon3.png" class="img-responsive status-icons"/>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <h3 class="myrank">50 <span class="total-rank">%</span></h3>
+                                <p class="mar-b0">ACCURACY</p>
+                            </div>
+                      </div>
+                </div>
+
+                <div class="quick-status-each">
+                      <div class="row">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                              <img src="images/forum/anal-icon4.png" class="img-responsive status-icons"/>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <h3 class="myrank">150 <span class="total-rank">/250</span></h3>
+                                <p class="mar-b0">ATTEMPT</p>
+                            </div>
+                      </div>
+                </div>
+                <div class="quick-status-each">
+                      <div class="row">
+                        <div class="col-xs-6 mar-t16 pad-v16 text-center number-text" style="border-right: 1px solid #e1e8ed;">
+                            <h3 class="font-weight-normal">200</h3>
+                            <p class="mar-b0">BEST SCORE</p>
+                          </div>
+                          <div class="col-xs-6 mar-t16 pad-v16 text-center number-text">
+                              <h3 class="font-weight-normal">102.30</h3>
+                              <p class="mar-b0">AVG SCORE</p>
+                            </div>
+
+                      </div>
+                </div>
+        </div><!--quick-status-box-->
+      </div>
+      <div class="col-md-12 statusfield">
+        <div class="top-rankers-box">
+          <h5 class="quick-status-heading">Top Rankers</h5>
+          <div class="quick-status-each">
+                <div class="row">
+                      <div class="col-md-2 col-sm-2 col-xs-2">
+                          <h5 class="top-rank1">1.</h5>
+                      </div>
+                      <div class="col-md-3 col-sm-3 col-xs-3">
+                        <img src="images/forum/user-icon-analysis.png" class="img-responsive user-icon-analysis">
+                      </div>
+                      <div class="col-md-7 col-sm-7 col-xs-7">
+                        <h5 class="font-weight-normal top-user">Erprvnkmr</h5>
+                        <p class="user-score">200 / 200</p>
+                      </div>
+                </div>
+          </div>
+          <div class="quick-status-each">
+                <div class="row">
+                      <div class="col-md-2 col-sm-2 col-xs-2">
+                          <h5 class="top-rank1">2.</h5>
+                      </div>
+                      <div class="col-md-3 col-sm-3 col-xs-3">
+                        <img src="images/forum/user-icon-analysis.png" class="img-responsive user-icon-analysis">
+                      </div>
+                      <div class="col-md-7 col-sm-7 col-xs-7">
+                        <h5 class="font-weight-normal top-user">Erprvnkmr</h5>
+                        <p class="user-score">200 / 200</p>
+                      </div>
+                </div>
+          </div>
+          <div class="quick-status-each">
+                <div class="row">
+                      <div class="col-md-2 col-sm-2 col-xs-2">
+                          <h5 class="top-rank1">3.</h5>
+                      </div>
+                      <div class="col-md-3 col-sm-3 col-xs-3">
+                        <img src="images/forum/user-icon-analysis.png" class="img-responsive user-icon-analysis">
+                      </div>
+                      <div class="col-md-7 col-sm-7 col-xs-7">
+                        <h5 class="font-weight-normal top-user">Erprvnkmr</h5>
+                        <p class="user-score">200 / 200</p>
+                      </div>
+                </div>
+          </div>
+          <div class="quick-status-each">
+                <div class="row">
+                      <div class="col-md-2 col-sm-2 col-xs-2">
+                          <h5 class="top-rank1">4.</h5>
+                      </div>
+                      <div class="col-md-3 col-sm-3 col-xs-3">
+                        <img src="images/forum/user-icon-analysis.png" class="img-responsive user-icon-analysis">
+                      </div>
+                      <div class="col-md-7 col-sm-7 col-xs-7">
+                        <h5 class="font-weight-normal top-user">Erprvnkmr</h5>
+                        <p class="user-score">200 / 200</p>
+                      </div>
+                </div>
+          </div>
+          <div class="quick-status-each">
+                <div class="row">
+                      <div class="col-md-2 col-sm-2 col-xs-2">
+                          <h5 class="top-rank1">5.</h5>
+                      </div>
+                      <div class="col-md-3 col-sm-3 col-xs-3">
+                        <img src="images/forum/user-icon-analysis.png" class="img-responsive user-icon-analysis">
+                      </div>
+                      <div class="col-md-7 col-sm-7 col-xs-7">
+                        <h5 class="font-weight-normal top-user">Erprvnkmr</h5>
+                        <p class="user-score">200 / 200</p>
+                      </div>
+                </div>
+          </div>
+      </div><!--Top Rankers Box Ends-->
+      </div>
+    </div>
+
+  </div>
+  <div class="col-lg-9 col-md-12 col-sm-12 summaryfield">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="summary-box">
+          <div class="row">
+            <div class="col-md-6">
+                <h5 class="sectional-summary-heading">Sectional Summary</h5>
+            </div>
+            <div class="col-md-6">
+                <h5 class="Time-taken">Time  :   <span class="time">60:00 </span> <span class="time1"> / 60:00 </span></h5>
+            </div>
+          </div>
+          <div class="panel panel-default summary-panel">
+              <div class="table-responsive">
+                  <table class="table table-bordered">
+                      <thead>
+                          <tr>
+                              <th class="t1-head">Section Name</th>
+                              <th class="t1-head">Score</th>
+                              <th class="t1-head">Attempted</th>
+                              <th class="t1-head">Accuracy</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td class="summary-language">English Language</td>
+                              <td class="score">6<span class="score-span"> / 45</span></td>
+                              <td class="score">21<span class="score-span"> / 45</span></td>
+                              <td class="score">50<span class="score-span"> % </span></td>
+                          </tr>
+                          <tr>
+                              <td class="summary-language">Reasoning</td>
+                              <td class="score">20<span class="score-span"> / 45</span></td>
+                              <td class="score">15<span class="score-span"> / 45</span></td>
+                                  <td class="score">60<span class="score-span">%</span></td>
+                          </tr>
+                          <tr>
+                              <td class="summary-language">Quantitative Aptitude	</td>
+                                <td class="score">45<span class="score-span"> / 45</span></td>
+                                <td class="score">25<span class="score-span"> / 45</span></td>
+                              <td class="score">80<span class="score-span"> %</span></td>
+                          </tr>
+                          <tr>
+                              <td class="summary-language">Professional Knowledge	</td>
+                                <td class="score">16<span class="score-span"> / 45</span></td>
+                                <td class="score">20<span class="score-span"> / 45</span></td>
+                              <td class="score">40<span class="score-span"> %</span></td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="summary-box">
+          <div class="row">
+            <div class="col-md-6">
+                <h5 class="sectional-summary-heading">Question Distribution</h5>
+            </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+            <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+</div><!--container-fluid ends-->
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

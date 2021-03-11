@@ -1,0 +1,221 @@
+@import "compass/css3";
+#interest_tabs{
+      margin-top: 0;
+      border-bottom: 1px solid #e1e8ed !important;
+    //  border-bottom: 1px solid red;
+      padding-bottom: 1px;
+      padding-left: 32%;
+}
+.tests-box .tab-pane{
+  padding: 0;
+}
+#inner_tabs{
+  margin:0 auto;
+  border-bottom: 1px solid #e1e8ed !important;
+  background: white;
+  padding-left: 25%;
+    height: 40px;
+}
+#interest_tabs  li > a{
+  height:50px;
+  font-size: 15px;
+}
+.tests-box{
+      background-color: #f2f2f2;
+      border: 1px solid #dcd9d9;
+      margin-bottom: 3%;
+      width: 73%;
+      float: left;
+      margin-left: 2%;
+}
+
+.tests-box .nav-tabs{
+  margin-top: 0 !important;
+}
+.tests-box .tab-content{
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.tests-box .nav-tabs > li.active > a {
+    background:transparent;
+    border: 1px solid white;
+    text-decoration: none;
+    color: #fe9a4a;
+    font-size: 12px;
+    //border-bottom: 2px solid #207aa1;
+    background: white;
+    border-radius: 0;
+    border-left: 1px solid #efe7e7;
+    border-right: 1px solid #efe7e7;
+}
+#inner_tabs .active{
+  border-bottom: 1px solid orange;
+}
+.nav-tabs > li > a:hover {
+    border: none;
+    color: orange;
+    background:transparent;
+    border-bottom: 2px solid orange;
+}
+.ssc-testbox{
+    background: white;
+    border: 2px solid #eaeaea;
+    padding: 20px;
+    margin-bottom: 8%;
+}
+.ssc-testbox h5{
+      font-size: 14px;
+      line-height: 1.25;
+      font-weight: 700;
+      border-bottom:1px solid #fd9c3c;
+      padding-bottom: 10px;
+      color: #495563;
+}
+.ssc-testbox  ul li{
+    text-transform: uppercase;
+    padding: 8px 0;
+    font-weight: 500;
+    color: #7c7d7d;
+    font-size: 11px;
+
+}
+.ssc-testbox  ul li+li{
+  border-top: 1px solid #D2D8DF;
+}
+.ssc-testbox  ul li span{
+    vertical-align: inherit;
+    min-width: 30px;
+    font-size: 15px;
+    color: #000000;
+}
+.start-testbtn{
+    color: white;
+    margin-top: 10px;
+    background: #ff9c3c;
+    outline: none;
+    font-size: 12px;
+    height: 31px;
+    border: none;
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.addto-testbtn{
+  color: white;
+  margin-top: 10px;
+  background: #207aa1;
+  outline: none;
+  font-size: 12px;
+  height: 31px;
+  border: none;
+  font-weight: 700;
+  display: inline-block;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.inner-content{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.expirty-date{
+    font-size: 11px;
+    color: #525252;
+    font-weight: 500;
+    margin-bottom: 8px;
+    white-space: nowrap;
+}
+.category-label{
+    display: inline-block;
+    background: #aab2c2;
+    color: #fff;
+    margin: 0 4px 0 0;
+    font-size: 12px;
+    border-radius: 30px;
+    max-width: 100%;
+    padding: 3px 8px;
+    line-height: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.all-testimg{
+  width: 30%;
+    margin: 0 auto;
+}
+.pack-details{
+  //height: 448px;
+  border-radius: 5px;
+//padding: 16px 16px 64px;
+}
+.pack-details h4{
+    font-weight: 500;
+    color: #192F49;
+    margin: 4px 0;
+    font-size: 14px;
+}
+.pack-details  ul{
+  list-style: disc;
+  padding: 4px 0 0 17px;
+  overflow: hidden;
+      height: 216px;
+}
+.pack-details  ul:first-of-type {
+  //height: 114px;
+    margin-bottom: 4px;
+}
+.pack-details  ul li{
+  color: #427DD3;
+  font-size: 13px;
+}
+.pack-details  ul li p{
+      margin: 4px 0;
+      display: block;
+      color: #8e9aa9;
+      font-size: 12px;
+      font-weight: 500;
+}
+/*Tests Sidebar */
+.test-type-box{
+    border: 1px solid #d6d6d6;
+    padding-top: 2%;
+    border-top: 5px solid #fd9c3c;
+    padding-bottom: 0%;
+    margin-bottom: 8%;
+    background: white;
+}
+.tests-sidebar{
+      text-align: center;
+      width: 21%;
+      margin-left: 2%;
+      margin-right: 2%;
+      border-radius: 3px;
+      color: #545353;
+      float: left;
+}
+.tests-searchbox{
+    width: 88%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #bfbdbd;
+    background: #fff url(../images/search-home-courses.png) no-repeat right;
+    background-size: 15px 15px;
+    padding-left: 10px;
+    outline: none;
+    background-position: 205px;
+}
+.test-type-inner{
+    width: 80%;
+    height: 240px;
+    overflow: auto;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+.select-category{
+  margin-left: 9%;
+}
+.select-category select, .select-category select:focus{
+      height: auto !important;
+      border: 1px solid orange;
+}
